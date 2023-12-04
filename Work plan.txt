@@ -1,0 +1,25 @@
+Names:
+Roll no.17-Trijal Luhariwala(12313979)
+Roll no.18-Vishal Ayush(12314130)
+Roll no.19-Allada.Pavan Venkata Satya Chowdary(12314335)
+
+Work plan
+
+Introduction
+We have been given a opportunity to create this project on the topic "Electronic Vehicles". Electronic vehicles or EVs are the future of transportation.They are non only environment freindly but also cost effective and easy to use as well. EVs are very popular nowadays as the people are getting to know the benfits of using a electronic vehicle rather than natural resouces driven vehicles.
+
+About our work
+We re taking a initiative to make more people aware about the use and benefits of EVs by creating a website using the programming language HTML that contains:
+1.Introduction to EVs as the future to transportation
+2.Environmental Benefits of EVs as compared to vehicles driven by natural resources(including pollution and its side effects with statics)
+3.Financial benefits of EVs
+4.Initiatives taken by the government to promote EVs 
+5.Suggesions for good EVs
+6.Survey form
+calculate your carbon footprint
+
+
+Current work status:
+Gathering information and ideas from different sources
+Compiling ideas for creation of website and styling it
+Assigning diff work to team members

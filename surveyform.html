@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Survey Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        h1{
+    background-color: #9bb77f;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 80px;
+    margin-top: 0px;
+    text-shadow: darkgreen 2px 2px;
+}
+html{
+    background-color: rgba(155,183,127,0.5);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 400px;
+}
+input[id="name"],input[id="email"],input[id=""],select, textarea
+        {
+            padding: 20px;
+            width: 60%;
+            border:none;
+            border-radius: 5px;
+        }
+input[id="city"],input[id="state"]{
+            padding: 20px;
+            width: 25%;
+            border:none;
+            border-radius: 5px;
+}
+html{
+    align-items: center;
+    text-align: center;
+}
+form{color: darkgreen;
+    font-size: 25px;
+    text-align: center;}
+input[type="submit"],input[type="reset"]{
+    background-color: #9bb77f;
+    color: darkgreen;
+    border-radius: 5px;
+    font-size: 30px;
+}
+input[type="submit"]:hover,input[type="reset"]:hover{
+    transform: scale(1.2);
+}
+    </style>
+</head>
+<h1>SURVEY FORM</h1>
+<body>
+    <form action="surveyform.html">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Name">
+        <br>
+        <br>
+        <label for="email" >E-mail</label>
+        <input type="text" id="email" name="email" placeholder="Email">
+        <br>
+        <br>
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" placeholder="City">
+        <label for="state">State</label>
+        <input type="text" id="state" name="state" placeholder="State">
+        <br>
+        <br>
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+            <option value="select">Select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+        </select>
+        <br>
+        <br>
+        <label>Do you own a vehicle?</label>
+        <br>
+        <input type="radio" name="g">Yes
+        <input type="radio" name="g">No
+        <br>
+        <br>
+        <label>If yes, is it an EV?</label>
+        <br>
+        <input type="radio" name="h">Yes
+        <input type="radio" name="h">No
+        <br>
+        <br>
+        <label>If no, would you switch to EV?</label>
+        <br>
+        <input type="radio" name="o">Yes
+        <input type="radio" name="o">No
+        <br>
+        <br>
+        <label>Did you find this website helpful or informative?</label>
+        <br>
+        <input type="radio" name="y">Yes
+        <input type="radio" name="y">No
+        <br>
+        <br>
+        <label>Help us improve by giving your valueable feedback and suggesions.</label>
+        <br>
+        <textarea id="feed" name="feed" cols="50" rows="5"> </textarea>
+        <br>
+        <br>
+        <a href="ENVIROEVOLUTION.html"><input type ="submit" value="Submit"></a>
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
